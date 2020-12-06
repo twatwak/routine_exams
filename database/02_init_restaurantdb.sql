@@ -22,7 +22,7 @@ drop table if exists restaurants;
 -- レストランマスタ
 create table restaurants (
 	id int not null unique auto_increment,
-	name varchar(10) not null,
+	name varchar(30) not null,
 	description text,
 	image varchar(20),
 	area varchar(5),
